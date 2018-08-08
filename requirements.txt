@@ -1,0 +1,3 @@
+pytest
+moto
+-e git+git://github.com/digirati-co-uk/iris-data#egg=iris-data
