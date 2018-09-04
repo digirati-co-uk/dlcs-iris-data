@@ -9,10 +9,10 @@ setup(name='dlcs-iris-data',
       packages=['dlcs_iris_data',],
       license='MIT',
       install_requires=[
-          'iris_data'
+          'iris-data==0'
       ],
       dependency_links=[
-              'https://github.com/digirati-co-uk/iris-data.git#egg=iris-data',
+              'git+https://github.com/digirati-co-uk/iris-data.git#egg=iris-data-0',
       ],
       classifiers=[
           'Development Status :: 3 - Alpha',
