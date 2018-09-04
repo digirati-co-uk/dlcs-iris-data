@@ -1,6 +1,7 @@
 from iris_data.iris_data_s3 import IrisSessionData
 from iris_data.exceptions import IrisDataError
 
+
 class TextPipelineIrisData:
 
     def __init__(self):

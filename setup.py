@@ -6,13 +6,13 @@ setup(name='dlcs-iris-data',
       version='0',
       description='DLCS Iris session data library',
       author='Digirati Ltd',
-      packages=['iris_data',],
+      packages=['dlcs_iris_data',],
       license='MIT',
       install_requires=[
-          'iris-data'
+          'iris_data'
       ],
       dependency_links=[
-              'git+ssh://git@github.com/digirat-co-uk/iris-data#egg=iris-data',
+              'https://github.com/digirati-co-uk/iris-data.git#egg=iris-data',
       ],
       classifiers=[
           'Development Status :: 3 - Alpha',
